@@ -1,0 +1,32 @@
+packages installed
+* npm i framer-motion react-anchor-link-smooth-scroll@1.0.12 @heroicons/react
+* npm i -D @types/react-anchor-link-smooth-scroll@1.0.2 @types/node
+*******************************************
+install tailwind with vite
+* npm install -D tailwindcss postcss autoprefixer
+* npx tailwindcss init -p
+config template path: tailwind.config.js
+* follow the steps on  
+https://tailwindcss.com/docs/installation
+*******************************************
+install extensions
+* Tailwind Documentation
+ctrl + alt + t
+* tailwind CSS IntelliSense
+add custom colors,fonts and styles to tailwind.config.js
+*******************************************
+install prettier plugin for tailwind
+* npm install -D prettier prettier-plugin-tailwindcss
+
+create prettier.config.cjs and add the follwoing code
+module.exports = {
+    plugins: [require("prettier-plugin-tailwindcss")],
+};
+
+
+
+
+
+
+
+
